@@ -12,6 +12,15 @@ public class AplicacaoComparacaoOrdenacao {
 		
 		AlgoritmoOrdenacao.imprimirArray(listaGerada, "Lista Gerada: ");
 		
+		ordenacao.insertionSort(listaGerada);
+		
+		
+		AlgoritmoOrdenacao.imprimirArray(listaGerada, "Lista Gerada insert sort: ");
+		
+		ordenacao.insertionSortDesc(listaGerada);
+		
+		AlgoritmoOrdenacao.imprimirArray(listaGerada, "Lista Gerada insert sort desc: ");
+		
 	}
 
 }
