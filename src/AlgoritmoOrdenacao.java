@@ -15,5 +15,14 @@ public class AlgoritmoOrdenacao {
 		}
 		return listaMerge;
 	}
+	
+	public static void imprimirArray(int[] lista, String tituloLista) {
+		 System.out.print(tituloLista);
+	        for (int i = 0; i < lista.length; ++i)
+	            System.out.print(lista[i] + " ");
+	  
+	        System.out.println();
+		
+	}
 
 }
