@@ -136,5 +136,13 @@ public class AlgoritmoOrdenacao {
 	        }
 			
 	    }
+	   
+	   public void mergeOtimizado(int[] lista, int l, int r) {
+		   if(lista.length > 1000)
+			   sort(lista, l, r);
+		   else
+			   insertionSort(lista);
+		   
+	   }
 
 }
